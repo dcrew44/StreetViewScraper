@@ -42,6 +42,14 @@ Before using the scraper, you need to install the following dependencies:
    ```bash
    MAPS_API_KEY=your_api_key_here
    ```
+## Dataset Requirements
+To properly run this scraper, you will need to download and use the **GRIP4 Regional Roads Dataset**. This dataset contains the road shapefiles necessary for scraping valid locations from specific countries.
+
+### Download Instructions:
+1. Visit the following page to download the GRIP Shapefiles for each region:
+[Download GRIP Database](https://www.globio.info/download-grip-dataset)
+2. After downloading, unzip the datasets then move the unzipped datasets for each region to the `GRIP4` directory within your project.
+
 ## Configuration
 Before you start scraping, you need to configure the settings:
 
@@ -65,13 +73,6 @@ Once the program is running, you will be presented with a menu to configure your
 2. **Scraping Options:** Choose between scraping an individual country or using a file to scrape multiple countries.
 3. **Image Capture:** Select between capturing panoramas or single images.
 4. **Start Scraping:** Begin the scraping process and monitor the progress via the console.
-
-## Dataset Requirements
-To properly run this scraper, you will need to download and use the **GRIP4 Regional Roads Dataset**. This dataset contains the road shapefiles necessary for scraping valid locations from specific countries.
-### Download Instructions:
-1. Visit the following page to download the GRIP Shapefiles for each region:
-[Download GRIP Database](https://www.globio.info/download-grip-dataset)
-2. After downloading, unzip the datasets then move the unzipped datasets for each region to the `GRIP4` directory within your project.
 
 ## Attribution
 
